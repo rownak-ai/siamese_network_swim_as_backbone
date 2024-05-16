@@ -226,7 +226,7 @@ def load_model(model_path, device):
 if __name__ == '__main__':
   # Hyperparameters (adjust as needed)
   learning_rate = 0.0001
-  num_epochs = 50
+  num_epochs = 15
 
   # Device configuration
   device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
